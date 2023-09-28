@@ -125,7 +125,7 @@ body {
   color: #fff;
 }
 @media screen and (min-width: 890px) {
-  .move-video{
+  .move-video {
     margin-left: 20px;
   }
 }
@@ -254,6 +254,11 @@ body {
   padding: 0 15px;
   border-right: 1px solid #f3f3f4;
 }
+@media screen and (max-width: 890px) {
+  .candidate-tab {
+    border: none;
+  }
+}
 .candidate-tab:last-child {
   border: none;
 }
@@ -289,7 +294,7 @@ body {
 .table-info img {
   margin: 0 25px;
 }
-.play-img{
+.play-img {
   margin: 0 0 !important;
 }
 .table-inner-info {
