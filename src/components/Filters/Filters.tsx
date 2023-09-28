@@ -1,9 +1,5 @@
-/* eslint-disable @typescript-eslint/ban-types */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import React from "react";
 import FilterDropdown from "./FilterDropdown";
 
-type Props = {};
 const filterDescs = [
   {
     id: 1,
@@ -31,7 +27,7 @@ const listFilterDesc = filterDescs.map((filterDesc) => (
   <FilterDropdown desc={filterDesc.desc} />
 ));
 
-const Filters = (props: Props) => {
+const Filters = () => {
   return (
     <div className="filters">
       <div className="filter-title-row">

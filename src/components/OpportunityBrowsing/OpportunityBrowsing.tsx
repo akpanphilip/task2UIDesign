@@ -1,12 +1,10 @@
-/* eslint-disable @typescript-eslint/ban-types */
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 
 import { Row } from "antd";
 import WrapIcon from "../UI/WrapIcon";
 import OpportunityList from "./OpportunityList";
 import { useState } from "react";
 
-type Props = {};
 
 const opportunityBrowings = [
   {
@@ -60,7 +58,7 @@ const ListOpportunites = opportunityBrowings.map((opportunity) => (
   <OpportunityList status={opportunity.status} count={opportunity.count} />
 ));
 
-const OpportunityBrowsing = (props: Props) => {
+const OpportunityBrowsing = () => {
   const [showDropdown, setShowDropdown] = useState(false);
 
   const toogleDropdown = () => {

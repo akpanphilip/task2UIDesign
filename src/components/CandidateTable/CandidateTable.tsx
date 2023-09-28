@@ -1,10 +1,5 @@
-/* eslint-disable @typescript-eslint/ban-types */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Checkbox } from "antd";
 import TableInfo from "../TableInfo/TableInfo";
-
-type Props = {};
-
 const candidates = [
   {
     id: 1,
@@ -102,7 +97,7 @@ const listCandidates = candidates.map((candidate) => (
   />
 ));
 
-const CandidateTable = (props: Props) => {
+const CandidateTable = () => {
   return (
     <div className="candidates-table">
       {/* table heading */}

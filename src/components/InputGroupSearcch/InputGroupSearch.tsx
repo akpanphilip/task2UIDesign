@@ -1,9 +1,4 @@
-/* eslint-disable @typescript-eslint/ban-types */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
-type Props = {};
-
-const InputGroupSearch = (props: Props) => {
+const InputGroupSearch = () => {
   return (
     <div className="input-group-search">
       <span className="search-icon-group">

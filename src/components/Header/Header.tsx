@@ -1,10 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React from "react";
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <nav className="p-4">
       

@@ -1,13 +1,9 @@
-/* eslint-disable @typescript-eslint/ban-types */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-// import { MenuOutlined, HomeOutlined, ProfileOutlined } from "@ant-design/icons";
-type Props = {};
 import profile from "../../assets/profile.png";
 import settings from "../../assets/Settings.png";
 import user from "../../assets/user.png";
 import "./Sidebar.css";
 
-const Sidebar = (props: Props) => {
+const Sidebar = () => {
   return (
     <div className="sidebar">
       <ul>
